@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #222222;
+}
+.navbar {
+  background: #000000;
+}
+.nav-link,
+.navbar-brand {
+  color: #ffffff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: #1e7f1e;
+}
+.description p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.page-footer {
+  background-color: #222222;
+  color: #cccccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666666;
+  padding: 40px 0;
+}
+.card-row {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-left: 20px;
+}
+.btn btn-outline-success {
+  color: #1e7f1e;
+}
+.card-body text-success {
+  color: #1e7f1e;
+}
+.containerUnroll {
+  border-radius: 10px;
+  margin: auto;
+  max-width: 100%;
+  border: 3px solid #1e7f1e;
+  padding: 20px;
+}
+.background {
+	background: #222222;
+	padding: 4em 0;
+}
+.team {
+	color: #FFFFFF;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background:none;
+	border: none;
+  margin: auto;
+}
+.team .card-title {
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+th {
+  color: #FFFFFF
+}
+td {
+  color: #FFFFFF
+}
